@@ -10,7 +10,7 @@ describe('getPersonsHealthList', () => {
     [
       'identical objects',
       [{ name: 'Mag', health: 10 }, { name: 'Thief', health: 10 }, { name: 'Warrior', health: 10 }],
-      [{ name: 'Warrior', health: 10 }, { name: 'Thief', health: 10 }, { name: 'Mag', health: 10 }],
+      [{ name: 'Mag', health: 10 }, { name: 'Thief', health: 10 }, { name: 'Warrior', health: 10 }],
     ],
     [
       'different objects',
